@@ -1,0 +1,4 @@
+tocTab[tocTab.length] = new Array("0.6.3:1", "", "Encerrar consulta", "EARoot/EA6/EA3/EA100.html", "180.png", "25", "0", "", "Use Case diagram0","{F684D161-E5CC-4543-BB9A-18195143BE3C}");
+tocTab[tocTab.length] = new Array("0.6.3:2", "", "«Document» DoC 0001 - Interface do Encerrar Consulta", "EARoot/EA6/EA3/EA102.html", "82.png", "138", "0", "", "Artifact0","{E93E31D0-D815-465e-8D69-6536E282BB77}");
+tocTab[tocTab.length] = new Array("0.6.3:3", "", "Encerrar consulta", "EARoot/EA6/EA3/EA103.html", "60.png", "139", "0", "", "Collaboration0","{1D639210-2D74-46eb-A070-F817CA99926A}");
+tocTab[tocTab.length] = new Array("0.6.3.1", "1", "StoryBoards", "EARoot/EA6/EA3/EA104.html", "4.png", "", "", "{DF22935B-7E50-4073-B19C-310D658CEF74}", "Package");

@@ -1,0 +1,6 @@
+tocTab[tocTab.length] = new Array("0.6.1", "1", "Cancelamento de agendamento", "EARoot/EA6/EA80.html", "4.png", "", "", "{2D2DE53B-982C-4eaf-9426-0AE03DC5651E}", "Package");
+tocTab[tocTab.length] = new Array("0.6.2", "1", "Confirmação de Solicitação de agendamento", "EARoot/EA6/EA81.html", "4.png", "", "", "{3DD6D135-B9A9-429b-B17D-4E9F4F74B836}", "Package");
+tocTab[tocTab.length] = new Array("0.6.3", "1", "Encerrar consulta", "EARoot/EA6/EA82.html", "4.png", "", "", "{D5164A2F-DD81-43bc-8FF4-9DEFA6D792D3}", "Package");
+tocTab[tocTab.length] = new Array("0.6.4", "1", "Iniciar consulta", "EARoot/EA6/EA83.html", "4.png", "", "", "{69843FEC-C353-4878-8F1D-03445986E853}", "Package");
+tocTab[tocTab.length] = new Array("0.6.5", "1", "Reagendamento", "EARoot/EA6/EA84.html", "4.png", "", "", "{A7C6778C-193C-48ad-9A9E-581D4008B745}", "Package");
+tocTab[tocTab.length] = new Array("0.6.6", "1", "Solicitação de agendamento", "EARoot/EA6/EA79.html", "4.png", "", "", "{FE8AD4CF-6D3B-425c-8C3F-1AD791A097AA}", "Package");

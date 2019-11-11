@@ -1,0 +1,3 @@
+tocTab[tocTab.length] = new Array("0.3.1", "1", "Agendamento", "EARoot/EA3/EA28.html", "4.png", "", "", "{39A7F3DB-CCCF-46de-AD68-489BEE25FB4D}", "Package");
+tocTab[tocTab.length] = new Array("0.3.2", "1", "Cancelamento", "EARoot/EA3/EA29.html", "4.png", "", "", "{0BB1490F-A4EB-4866-B541-5B09E53A08F3}", "Package");
+tocTab[tocTab.length] = new Array("0.3.3", "1", "Re-agendamento", "EARoot/EA3/EA30.html", "4.png", "", "", "{DCB4FF95-310F-4528-A566-54AFCA19A84B}", "Package");

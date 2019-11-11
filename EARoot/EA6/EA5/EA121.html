@@ -1,0 +1,231 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Remarcar agendamento</title>
+<link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {
+  parent.initPage(src);
+}
+
+function nameClassifier(name, separator)
+{
+  var str = name;
+  var classifierName;
+  var node = document.getElementById('name_classifier');
+  if(node != null)
+  {
+    classifierName = node.innerHTML;
+  }
+  if(classifierName != "")
+  {
+   str += separator + classifierName;
+  }
+  
+  return str;
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="pageHeader"></div>
+<div class="PageBody">
+	<div id="name_classifier" style="display: none;"></div>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Remarcar agendamento", " : "))</script>  : Public   Collaboration</span>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">11/10/2019 22:06:23</td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic">Modified:</td>
+			<td class="ObjectDetailsValue">11/10/2019 22:21:07</td>
+		</tr>
+		<tr style="height: 10px"><td colspan="2"></td></tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td class="ObjectDetailsValue">Puertas</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj02" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Phase:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj03" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Status:</td>
+			<td class="ObjectDetailsValue">Proposed</td>
+		</tr>
+		<tr id="proj04" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Complexity:</td>
+			<td class="ObjectDetailsValue">Easy</td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Difficulty:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj06" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Priority:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Multiplicity:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
+			<td class="ObjectDetailsValue">{27D8C326-AEC2-47f1-B630-39EC174680BF}</td>
+		</tr>
+		<tr id="adv01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
+			<td class="ObjectDetailsValue"><a href="EA117.html">Reagendamento</a></td>
+		</tr>
+	</table>
+	<div class="ObjectDetailsNotes">Este e um caso de uso de Realização do caso de Uso &quot;reagendar consulta&quot;</div>
+
+	<div class="TableGroup" id="TableGroup">
+		<ul class="ItemTitle">
+			<li onClick="parent.toggleItem('Constraints');" id="ConstraintsTitle">Constraints</li>
+			<li onClick="parent.toggleItem('Scenario');" id="ScenarioTitle">Scenarios</li>
+			<li onClick="parent.toggleItem('Links');" id="LinksTitle">Other Links</li>
+		</ul>
+		<div class="ItemBody" id="ConstraintsTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+			  	<tr>
+					<td width="80%" class="TableHeading">Constraint</td>
+					<td width="10%" class="TableHeading">Type</td>
+					<td width="10%" class="TableHeading">Status</td>
+				</tr>
+				<tr>
+					<td width="80%" class="TableRow">CONSULTA REAGENDADA</td>
+					<td width="10%" class="TableRow">Post-condition</td>
+					<td width="10%" class="TableRow">Approved</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageConstraints67" onclick="parent.toggleDiv('detailsDIVConstraints67','DetailsImageConstraints67')" />Details:
+							<div id="detailsDIVConstraints67" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">A consulta foi re-agendada</div>
+
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="80%" class="TableRow"> EXISTIR UM AGENDAMENTO</td>
+					<td width="10%" class="TableRow">Pre-condition</td>
+					<td width="10%" class="TableRow">Approved</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageConstraints68" onclick="parent.toggleDiv('detailsDIVConstraints68','DetailsImageConstraints68')" />Details:
+							<div id="detailsDIVConstraints68" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">Deve existir um agendamento para poder re-agendar</div>
+
+							</div>
+						</div>
+					</td>
+				</tr>
+
+			</table>
+		</div>
+		<div class="ItemBody" id="ScenarioTable">
+			<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="90%" class="TableHeading">Scenario</td>
+					<td width="10%" class="TableHeading">Type</td>
+				</tr>
+				<tr>
+					<td width="90%" class="TableRow">Re-agendamento de consulta paciente</td>
+					<td width="10%" class="TableRow">Basic Path</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario69" onclick="parent.toggleDiv('detailsDIVScenario69','DetailsImageScenario69')" />Details:
+							<div id="detailsDIVScenario69" class="DetailsDiv" >
+							
+							</div>
+						</div>
+						<div class="StrucuturedDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="StepImageScenario69" onclick="parent.toggleDiv('stepDIVScenario69','StepImageScenario69')" />Steps:
+							<div id="stepDIVScenario69" class="StrucuturedDiv" >
+							<div class="ObjectDetailsNotes">1. O PACIENTE SELECIONA  A OPÇÃO DE REMARCAR CONSULTA <br />2. O SISTEMA EXIBE A TELA DOS AGENDAMENTOS <br />3. O PACIENTE SELECIONA O  AGENDAMENTO QUE SERÁ REMARCADO <br />4. O SISTEMA EXIBE AS DATAS E HORÁRIOS DISPONÍVEIS DO PROFISSIONAL <br />5. O PACIENTE SELECIONA UMA DATA E UM HORÁRIO DISPONÍVEL E CLICA NO BOTÃO “PROSSEGUIR” <br />6. O SISTEMA EXIBE UMA TELA DE CONFIRMAÇÃO DO RE-AGENDAMENTO <br />7. O PACIENTE CLICA NO BOTÃO SOLICITAR RE-AGENDAMENTO <br />8. O SISTEMA REGISTRA  A SOLICITAÇÃO DE RE-AGENDAMENTO E NOTIFICA O PROFISSIONAL <br /></div>
+							</div>
+						</div>
+						
+					</td>
+				</tr>
+				<tr>
+					<td width="90%" class="TableRow">Re-agendamento de consulta do profissional</td>
+					<td width="10%" class="TableRow">Alternate</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario71" onclick="parent.toggleDiv('detailsDIVScenario71','DetailsImageScenario71')" />Details:
+							<div id="detailsDIVScenario71" class="DetailsDiv" >
+							
+							</div>
+						</div>
+						<div class="StrucuturedDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="StepImageScenario71" onclick="parent.toggleDiv('stepDIVScenario71','StepImageScenario71')" />Steps:
+							<div id="stepDIVScenario71" class="StrucuturedDiv" >
+							<div class="ObjectDetailsNotes">1. O PROFISSIONAL SELECIONA  A OPÇÃO DE REAGENDAR CONSULTA <br />2. O SISTEMA EXIBE A TELA DOS AGENDAMENTOS <br />3. O PROFISSIONAL SELECIONA O  AGENDAMENTO QUE SERÁ REMARCADO <br />4. O SISTEMA EXIBE OS DADOS DO CLIENTE QUE TERÁ A REMARCAÇÃO <br />5. O PROFISSIONAL CONFIRMA OS DADOS DO CLIENTE QUE TERÁ A REMARCAÇÃO <br />6. O SISTEMA EXIBE AS DATAS E HORÁRIOS DISPONÍVEIS PARA O REAGENDAMENTO
+ <br />7. O PROFISSIONAL SELECIONA UMA DATA E UM HORÁRIO DISPONÍVEL E CLICA NO BOTÃO “PROSSEGUIR” <br />8. O SISTEMA EXIBE UMA TELA DE CONFIRMAÇÃO DA REMARCAÇÃO <br />9. O PROFISSIONAL CLICA NO BOTÃO DE RE-AGENDAMENTO
+ <br />10. O SISTEMA REGISTRA  A SOLICITAÇÃO DE RE-AGENDAMENTO E NOTIFICA O CLIENTE
+ <br /></div>
+							</div>
+						</div>
+						
+					</td>
+				</tr>
+
+			</table>
+		</div>
+		<div class="ItemBody" id="LinksTable">
+			<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="30%" class="TableHeading">Object</td>
+					<td width="15%" class="TableHeading">Type</td>
+					<td width="15%" class="TableHeading">Connection</td>
+					<td width="40%" class="TableHeading">Notes</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../EA5/EA75.html">Remarcar agendamento</a></td>
+					<td width="15%" class="TableRow" valign="top">UseCase</td>
+					<td width="15%" class="TableRow" valign="top">Realization</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../EA7/EA142.html">«Functional» SSS 0004 - O sistema DEVE permitir que o profissional solicite um re-agendamento</a></td>
+					<td width="15%" class="TableRow" valign="top">Requirement</td>
+					<td width="15%" class="TableRow" valign="top">Dependency</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../EA7/EA141.html">«Functional» SSS 0003 - O sistema DEVE permitir que o paciente solicite um re-agendamento</a></td>
+					<td width="15%" class="TableRow" valign="top">Requirement</td>
+					<td width="15%" class="TableRow" valign="top">Dependency</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA120.html">«Document» DoC 0001 - Interface Re-agendamento</a></td>
+					<td width="15%" class="TableRow" valign="top">Artifact</td>
+					<td width="15%" class="TableRow" valign="top">Dependency</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+
+			</table>
+		</div>
+	</div>
+<div class="pageFooter"></div>
+ 
+</body>
+</html>
